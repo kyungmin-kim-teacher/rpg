@@ -3,7 +3,7 @@
 # =============== #
 Logs/
 Temp/
-Library/
+/[Ll]ibrary/
 obj/
 
 
@@ -21,3 +21,6 @@ ExportedObj/
 *.user
 *.unityproj
 *.booproj
+
+# Visual Studio cache directory
+.vs/

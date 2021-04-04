@@ -66,29 +66,4 @@ public class MovementController : MonoBehaviour
             animator.SetInteger(animationState, (int)CharState.idleSouth);
         }
     }
-
-    private void test()
-    {
-        int number = 6;
-        if (number < 10) {
-            print("number는 10보다 작다");
-            if (number < 9) {
-                print("number는 9보다 작다");
-                if (number < 8) {
-                    print("number는 8보다 작다");
-                    if (number < 7){
-                        print("number는 7보다 작다");
-                    } else {
-                        print("number는 7보다 크거나 같다");
-                    }
-                } else {
-                    print("number는 8보다 크거나 같다");
-                }
-            } else {
-                print("number는 9보다 크거나 같다");
-            }
-        } else {
-            print("number는 10보다 크거나 같다");
-        }
-    }
 }
